@@ -1,0 +1,16 @@
+$blue:#1b30ed;
+$black:#000000;
+.box{
+    border: 1px solid $blue;
+    box-shadow: 0 0 3px $black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.register{
+    &-form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,28 @@
+<%- include('partials/top.ejs') %>
+<h1>Register</h1>
+<div class="container register">
+	<div class="row">
+		<div class="col-md-6 box"></div>
+		<div class="col-md-6 register-form">
+			<div class="box text-center"><h2>REGISTER</h2></div>
+			<form action="/auth/register" class="box" method="post">
+				<input class="form-control mb-3" type="text" placeholder="First name" name="firstName" />
+				<input class="form-control mb-3" type="text" placeholder="Last name" name="lastName" />
+				<input class="form-control mb-3" type="email" placeholder="Email" name="email" />
+				<input class="form-control mb-3" type="password" placeholder="Password" name="password" />
+				<input
+					class="form-control mb-3"
+					type="password"
+					placeholder="Repeat password"
+					name="repeatPassword"
+				/>
+				<button class="form-control btn btn-primary">Register</button>
+			</form>
+			<div class="box text-center">
+				<p>Already have account?</p>
+				<a href="/">Click here to Login</a>
+			</div>
+		</div>
+	</div>
+</div>
+<%- include('partials/bottom.ejs') %>
