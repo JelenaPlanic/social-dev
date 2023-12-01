@@ -10,3 +10,7 @@
 		<link rel="stylesheet" href="/assets/style.css" />
 	</head>
 	<body>
+		<% let userInfo = null; %>
+		<% if (typeof user !== "undefined") { userInfo = {...user} %> <% } %>
+		 
+		<%- include('../component/navbar.ejs', {user: userInfo}) %>
