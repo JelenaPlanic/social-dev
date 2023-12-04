@@ -1,5 +1,7 @@
 const PORT = 3000;
-const DB_URL = "mongodb+srv://snadmin:evMBEYidZXt7gBDf@social-db.xpl3rz6.mongodb.net/?retryWrites=true&w=majority";
+const DB_URL = "mongodb+srv://snadmin:Qcd3jGQg4vSyUTtw@socialnet.ogoif8y.mongodb.net/?retryWrites=true&w=majority";
+//
+"mongodb+srv://snadmin:evMBEYidZXt7gBDf@social-db.xpl3rz6.mongodb.net/?retryWrites=true&w=majority"
 
 const SESSION_CONFIG = {
     name: "snSession",

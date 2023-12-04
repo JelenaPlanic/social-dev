@@ -1,8 +1,9 @@
 const { Router } = require("express");
+const renderPostPage = require("../controllers/post/renderPostPage");
 const router = Router();
 
-router.get("/", (req, res) => {
-    res.render("postsPage", {user: req.session.user}); // controll(user) -> izmedju parc: top(user)->nav user 
-})
+router.get("/", renderPostPage);
+
+
 
 module.exports = router;
